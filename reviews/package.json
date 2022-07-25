@@ -1,0 +1,28 @@
+{
+  "name": "reviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.31.0",
+    "@opentelemetry/exporter-zipkin": "^1.4.0",
+    "@opentelemetry/node": "^0.24.0",
+    "@opentelemetry/sdk-node": "^0.30.0",
+    "@opentelemetry/tracing": "^0.24.0",
+    "axios": "^0.27.2",
+    "koa": "^2.13.4",
+    "koa-router": "^11.0.1",
+    "zipkin": "^0.22.0",
+    "zipkin-instrumentation-axios": "^0.1.0",
+    "zipkin-transport-http": "^0.22.0"
+  },
+  "devDependencies": {
+    "@types/koa-router": "^7.4.4"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.31.0",
+    "@opentelemetry/exporter-zipkin": "^1.4.0",
+    "@opentelemetry/node": "^0.24.0",
+    "@opentelemetry/sdk-node": "^0.30.0",
+    "@opentelemetry/tracing": "^0.24.0",
+    "koa": "^2.13.4",
+    "koa-router": "^11.0.1"
+  },
+  "devDependencies": {
+    "@types/koa-router": "^7.4.4"
+  }
+}
